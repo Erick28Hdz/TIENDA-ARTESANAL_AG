@@ -1,0 +1,65 @@
+:root {
+  --color-primario: #000000;
+  --color-secundario: #3e3636;
+  --color-terciario: #d72323;
+  --color-cuaternario: #f5eded;
+   /* ===== VARIABLES DE FUENTES ===== */
+  --letra-titulos: 'Unbounded', sans-serif;
+  --letra-subtitulo1: 'Maitree', serif;
+  --letra-subtitulo2: 'Courier Prime', monospace;
+  --letra-parrafos: 'Roboto Serif', serif;
+  --letra-textos: 'Montserrat', sans-serif;
+  --letra-enlaces: 'Lobster Two', cursive;
+  --letra-botones: 'Bebas Neue', serif;
+  --letra-decorativa: 'Fascinate Inline', cursive;
+  --letra-arte-gestion: 'Sedgwick Ave Display', cursive;
+  --letra-taller-artesanal: 'Rock Salt', cursive;  
+}
+
+.tienda-virtual {
+  --color-primario: #252525;
+  --color-secundario: #ff0000;
+  --color-terciario: #af0404;
+  --color-cuaternario: #414141;
+  --color-cuaternario2: #f5eded;
+}
+
+.bienestar {
+  --color-primario: #0008c1;
+  --color-secundario: #2146c7;
+  --color-terciario: #e6cba8;
+  --color-cuaternario: #fdf0e0;
+}
+
+.economia {
+  --color-primario: #2d033b;
+  --color-secundario: #810ca8;
+  --color-terciario: #c147e9;
+  --color-cuaternario: #e5b8f4;
+}
+
+.territorio {
+  --color-primario: #125c13;
+  --color-secundario: #3e7c17;
+  --color-terciario: #f4a442;
+  --color-cuaternario: #e8e1d9;
+}
+
+.pedagogia {
+  --color-primario: #ffb400;
+  --color-secundario: #fffbe0;
+  --color-terciario: #2994b2;
+  --color-cuaternario: #474744;
+}
+
+/* Después */
+h1, h2, h3, h4, h5, h6 { 
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  /* color eliminado */
+}
+
+
+
