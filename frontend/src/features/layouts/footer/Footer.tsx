@@ -1,10 +1,10 @@
-import Text from "../ui/typography/Text";
+import Text from "../../ui/typography/Text";
 
 
-import AboutUsSection from "../components/footer/AboutUsSection";
-import CustomerSupportSection from "../components/footer/CustomerSupportSection";
-import PaymentMethodsSection from "../components/footer/PaymentMethodsSection";
-import SocialMediaSection from "../components/footer/SocialMediaSection";
+import AboutUsSection from "../../components/footer/AboutUsSection";
+import CustomerSupportSection from "../../components/footer/CustomerSupportSection";
+import PaymentMethodsSection from "../../components/footer/PaymentMethodsSection";
+import SocialMediaSection from "../../components/footer/SocialMediaSection";
 
 const Footer = () => {
   return (

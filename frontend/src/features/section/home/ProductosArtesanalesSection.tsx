@@ -1,5 +1,5 @@
-import ProductosPersonalizadosSection from "../products/ProductosPersonalizados";
-import ProductosUnicosSection from "../products/ProductosUnicos";
+import ProductosPersonalizadosSection from "../../layouts/home/ProductosPersonalizados";
+import ProductosUnicosSection from "../../layouts/home/ProductosUnicos";
 import MarketingText from "@/features/ui/typography/MarketingText";
 export default function ProductosArtesanalesSection() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarComponent from "@/features/section/Navbar";
-import Hero from "@/features/layouts/Hero";
-import Footer from "@/features/layouts/Footer";
+import Hero from "@/features/layouts/hero/Hero";
+import Footer from "@/features/layouts/footer/Footer";
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (

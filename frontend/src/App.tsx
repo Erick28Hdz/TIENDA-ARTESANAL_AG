@@ -6,6 +6,7 @@ import Categorias from "./modules/store/Categories/page/categorias";
 import Productos from "./modules/store/Products/page/productos";
 import Promociones from "./modules/store/promotions/page/promociones";
 import Reseñas from "./modules/store/comments/page/reseñas";
+import About from "./modules/store/about/About";
 const App = () => {
   return (
     <Router>
@@ -47,6 +48,14 @@ const App = () => {
           element={
               <SimpleLayout>
                 < Reseñas/>
+              </SimpleLayout>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+              <SimpleLayout>
+                <About />
               </SimpleLayout>
           }
         />

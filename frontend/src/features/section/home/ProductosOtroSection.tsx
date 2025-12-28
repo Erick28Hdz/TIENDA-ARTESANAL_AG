@@ -1,5 +1,5 @@
-import CategoriasMasBuscadas from "../categories/CategoriasMasBuscadas";
-import ProductosOtrosSection from "../products/ProductosOtros";
+import CategoriasMasBuscadas from "../../layouts/home/CategoriasMasBuscadas";
+import ProductosOtrosSection from "../../layouts/home/ProductosOtros";
 
 export default function ProductosLayoutSection() {
   return (
