@@ -1,6 +1,6 @@
-import HeroCarousel from "../components/hero/HeroCarousel";
-import HeroBranding from "../components/hero/HeroBranding";
-import HeroMarketing from "../components/hero/HeroMarketing";
+import HeroCarousel from "../../components/hero/HeroCarousel";
+import HeroBranding from "../../components/hero/HeroBranding";
+import HeroMarketing from "../../components/hero/HeroMarketing";
 
 const Hero = () => {
   return (

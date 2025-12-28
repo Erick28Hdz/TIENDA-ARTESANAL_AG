@@ -1,16 +1,16 @@
 
-import MarketingHeroMessage from "../components/home/messages/MarketingHeroMessage";
-import HomeIndexSection from "../components/home/layouts/HomeIndexSection";
+import MarketingHeroMessage from "../../../../features/layouts/home/messages/MarketingHeroMessage";
+import HomeIndexSection from "../../../../features/section/home/HomeIndexSection";
 import ProductosTopSection from "../../../../features/section/products/ProductsTopSection";
-import MarketingImpactMessage from "../components/home/messages/MarketingImpactMessage";
-import ProductosArtesanalesSection from "../components/home/layouts/ProductosArtesanalesSection";
-import MarketingCTASection from "../components/home/messages/MarketingCTASection";
-import ProductosLayoutSection from "../components/home/layouts/ProductosOtroSection";
+import MarketingImpactMessage from "../../../../features/layouts/home/messages/MarketingImpactMessage";
+import ProductosArtesanalesSection from "../../../../features/section/home/ProductosArtesanalesSection";
+import MarketingCTASection from "../../../../features/layouts/home/messages/MarketingCTASection";
+import ProductosLayoutSection from "../../../../features/section/home/ProductosOtroSection";
 import PublicitySection from "../../../../features/layouts/marketing/PublicidadSection";
-import DescuentosPromocionesSection from "../components/home/layouts/DescuentosPromocionesSection";
-import MarketingWhyChooseUs from "../components/home/messages/MarketingTextInfo";
-import ReviewSection from "../components/home/layouts/ReviewsSection";
-import MarketingFooterMessage from "../components/home/messages/MarketingFooter";
+import DescuentosPromocionesSection from "../../../../features/section/home/DescuentosPromocionesSection";
+import MarketingWhyChooseUs from "../../../../features/layouts/home/messages/MarketingTextInfo";
+import ReviewSection from "../../../../features/section/home/ReviewsSection";
+import MarketingFooterMessage from "../../../../features/layouts/home/messages/MarketingFooter";
 
 
 

@@ -1,8 +1,8 @@
 import React from "react";
 import MarketingText from "@/features/ui/typography/MarketingText";
 import Button from "@/features/ui/button/Button";
-import OpinionSection from "../../../../../../features/layouts/comments/opinionSection";
-import ReviewsSection from "../../../../../../features/layouts/comments/reviewsSection";
+import OpinionSection from "../../layouts/comments/opinionSection";
+import ReviewsSection from "../../layouts/comments/reviewsSection";
 
 const ReviewSection: React.FC = () => {
   return (

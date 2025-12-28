@@ -1,5 +1,5 @@
 import Button from "@/features/ui/button/Button";
-import ProductoPersonalizadoCard from "../../../../../../features/ui/card/PersonaliceCard";
+import ProductoPersonalizadoCard from "../../ui/card/PersonaliceCard";
 import Title from "@/features/ui/typography/Title";
 
 import { productosPersonalizados } from "@/features/data/products/productosPersonalizados";
