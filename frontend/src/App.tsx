@@ -1,12 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./modules/store/Home/page/Home";
 import MainLayout from "./app/layouts/MainLayout";
+import LoginLayout from "./app/layouts/LoginLayout";
 import SimpleLayout from "./app/layouts/SimpleLayout";
 import Categorias from "./modules/store/Categories/page/categorias";
 import Productos from "./modules/store/Products/page/productos";
 import Promociones from "./modules/store/promotions/page/promociones";
 import Reseñas from "./modules/store/comments/page/reseñas";
 import About from "./modules/store/about/About";
+import Login from "./modules/user/login/page/Login";
+
 const App = () => {
   return (
     <Router>
@@ -59,7 +62,16 @@ const App = () => {
               </SimpleLayout>
           }
         />
-      </Routes>
+        <Route
+          path="/login"
+          element={
+              <LoginLayout>
+                <Login />
+              </LoginLayout>
+          }
+        />
+       
+      </Routes> 
     </Router>
   );
 };
