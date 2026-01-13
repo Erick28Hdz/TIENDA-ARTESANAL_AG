@@ -7,8 +7,9 @@ import Categorias from "./modules/store/Categories/page/categorias";
 import Productos from "./modules/store/Products/page/productos";
 import Promociones from "./modules/store/promotions/page/promociones";
 import Reseñas from "./modules/store/comments/page/reseñas";
-import About from "./modules/store/about/About";
+import About from "./modules/store/about/page/About";
 import Login from "./modules/user/login/page/Login";
+import Dashboard from "./modules/admin/dashboard/page/dashboard";
 
 const App = () => {
   return (
@@ -70,7 +71,14 @@ const App = () => {
               </LoginLayout>
           }
         />
-       
+        <Route
+          path="/dashboard"
+          element={
+              <SimpleLayout>
+                <Dashboard />
+              </SimpleLayout>
+          }
+        />
       </Routes> 
     </Router>
   );

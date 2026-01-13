@@ -1,9 +1,9 @@
-import ProductsSection from "../../../../features/section/products/ProductsSection";
-import PersonalizedProductsSection from "@/features/section/products/PersonalizedProductsSection";
+import ProductsSection from "../sections/ProductsSection";
+import PersonalizedProductsSection from "@/modules/store/Products/sections/PersonalizedProductsSection";
 import PublicitySection from "@/features/layouts/marketing/PublicidadSection";
-import RelatedProductsSection from "../../../../features/section/products/RelatedProductsSection";
-import ProductsMarqueeSection from "../../../../features/section/products/ProductsMarqueeSection";
-import ProductInfoSection from "../../../../features/section/products/ProductInfoSection";
+import RelatedProductsSection from "../sections/RelatedProductsSection";
+import ProductsMarqueeSection from "../sections/ProductsMarqueeSection";
+import ProductInfoSection from "../sections/ProductInfoSection";
 
 const Productos = () => {
   return (

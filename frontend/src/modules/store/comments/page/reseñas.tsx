@@ -1,6 +1,6 @@
-import ReviewsHeaderSection from "@/features/section/reviews/ReviewsHeaderSection";
-import ReviewsTabsSection from "@/features/section/reviews/ReviewsTabsSection";
-import ReviewsContentSection from "@/features/section/reviews/ReviewsContentSection";
+import ReviewsHeaderSection from "@/modules/store/comments/sections/ReviewsHeaderSection";
+import ReviewsTabsSection from "@/modules/store/comments/sections/ReviewsTabsSection";
+import ReviewsContentSection from "@/modules/store/comments/sections/ReviewsContentSection";
 import PublicitySection from "@/features/layouts/marketing/PublicidadSection";
 
 const Reseñas = () => {

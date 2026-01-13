@@ -1,4 +1,4 @@
-import LoginAuthLayout from "@/features/layouts/login/LoginLayout";
+import LoginAuthLayout from "@/modules/user/login/layout/LoginLayout";
 
 const Login = () => {
   return <LoginAuthLayout />;
