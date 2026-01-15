@@ -5,7 +5,7 @@ import {
   crearCategoria,
   editarCategoria,
   eliminarCategoria,
-} from "../controllers/categorias.controller";
+} from "../../controllers/products/categorias.controller";
 
 const router = Router();
 
