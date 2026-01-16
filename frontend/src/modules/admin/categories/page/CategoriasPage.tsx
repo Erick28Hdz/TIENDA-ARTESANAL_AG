@@ -128,6 +128,8 @@ const CategoriasPage = () => {
       <CreateCategoriaModal
         show={showCreateModal}
         onCancel={() => setShowCreateModal(false)}
+        // 🔥 AQUÍ
+        categorias={categorias}
         onSubmit={async (data) => {
           await createCategoria(data);
           setShowCreateModal(false);
@@ -137,6 +139,8 @@ const CategoriasPage = () => {
       <ViewCategoriaModal
         show={showViewModal}
         categoria={selectedCategoria}
+        // 🔥 AQUÍ
+        categorias={categorias}
         onCancel={() => {
           setShowViewModal(false);
           setSelectedCategoria(null);
@@ -146,6 +150,8 @@ const CategoriasPage = () => {
       <EditCategoriaModal
         show={showEditModal}
         categoria={selectedCategoria}
+        // 🔥 AQUÍ TAMBIÉN
+        categorias={categorias}
         onCancel={() => {
           setShowEditModal(false);
           setSelectedCategoria(null);

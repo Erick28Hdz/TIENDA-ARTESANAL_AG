@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 
 import { AppDataSource } from "./config/postgres";
 import { connectMongo } from "./config/mongo";
-import categoriasRoutes from "./routes/products/categorias.routes";
+import categoriasRoutes from "./modules/products/categories/routes/categorias.routes";
 
 dotenv.config();
 

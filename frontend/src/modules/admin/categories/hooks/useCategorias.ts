@@ -115,5 +115,6 @@ export const useCategorias = () => {
     createCategoria,
     updateCategoria,
     deleteCategoria,
+    refresh: fetchCategorias,
   };
 };

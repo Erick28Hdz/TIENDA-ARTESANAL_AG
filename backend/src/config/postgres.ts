@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { DataSource } from "typeorm";
 import dotenv from "dotenv";
 
-import { Categoria } from "../models/products/categorias.entity";
+import { Categoria } from "../modules/products/categories/entity/categorias.entity";
 
 // 🔽 Cargar el .env correcto según entorno
 dotenv.config({

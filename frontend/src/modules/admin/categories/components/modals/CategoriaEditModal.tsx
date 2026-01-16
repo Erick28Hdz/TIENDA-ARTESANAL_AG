@@ -1,13 +1,15 @@
 import Modal from "react-bootstrap/Modal";
 import CategoriaForm from "../CategoriaForm";
-import type { Categoria } from "../../types/categoria";
-import type { UpdateCategoriaDTO } from "../../types/categoria";
+import type { Categoria, UpdateCategoriaDTO } from "../../types/categoria";
 
 interface EditCategoriaModalProps {
   show: boolean;
   categoria: Categoria | null;
   onCancel: () => void;
   onSubmit: (data: UpdateCategoriaDTO) => void;
+
+  // 🔥 NUEVO
+  categorias: Categoria[];
 }
 
 const EditCategoriaModal = ({
@@ -15,7 +17,9 @@ const EditCategoriaModal = ({
   categoria,
   onCancel,
   onSubmit,
+  categorias,
 }: EditCategoriaModalProps) => {
+
   if (!categoria) return null;
 
   return (
@@ -27,13 +31,20 @@ const EditCategoriaModal = ({
       <Modal.Body>
         <CategoriaForm
           mode="edit"
+
+          // 🔥 AQUÍ FALTABA parent_id
           initialData={{
             nombre: categoria.nombre,
             descripcion: categoria.descripcion,
             estado: categoria.estado,
+            padre: categoria.padre,   // 👈 CLAVE
           }}
+
           onCancel={onCancel}
           onSubmit={onSubmit}
+
+          // 🔥 CLAVE PARA EL SELECT
+          categoriasDisponibles={categorias}
         />
       </Modal.Body>
     </Modal>

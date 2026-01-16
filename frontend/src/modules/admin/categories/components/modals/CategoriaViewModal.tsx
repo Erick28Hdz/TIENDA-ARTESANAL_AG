@@ -6,9 +6,18 @@ interface ViewCategoriaModalProps {
   show: boolean;
   categoria: Categoria | null;
   onCancel: () => void;
+
+  // 🔥 NUEVO
+  categorias: Categoria[];
 }
 
-const ViewCategoriaModal = ({ show, categoria, onCancel }: ViewCategoriaModalProps) => {
+const ViewCategoriaModal = ({
+  show,
+  categoria,
+  onCancel,
+  categorias,
+}: ViewCategoriaModalProps) => {
+
   if (!categoria) return null;
 
   return (
@@ -22,6 +31,9 @@ const ViewCategoriaModal = ({ show, categoria, onCancel }: ViewCategoriaModalPro
           mode="view"
           initialData={categoria}
           onCancel={onCancel}
+
+          // 🔥
+          categoriasDisponibles={categorias}
         />
       </Modal.Body>
     </Modal>
