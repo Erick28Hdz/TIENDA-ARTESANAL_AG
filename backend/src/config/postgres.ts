@@ -1,14 +1,28 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
 import dotenv from "dotenv";
-import path from "path";
 
-dotenv.config();
+import { Categoria } from "../modules/products/categories/entity/categorias.entity";
+
+// 🔽 Cargar el .env correcto según entorno
+dotenv.config({
+  path:
+    process.env.NODE_ENV === "production"
+      ? ".env.production"
+      : ".env.development",
+});
+
+const isDev = process.env.NODE_ENV !== "production";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
-  url: process.env.DATABASE_URL, // 👈 toma todo desde la variable .env
-  synchronize: true, // ⚠️ sólo mantener en true en desarrollo
-  logging: true,
-  entities: [path.join(__dirname, "..", "entities", "**", "*.{js,ts}")],
+
+  // 👇 Aquí entra la DB correcta automáticamente
+  url: process.env.DATABASE_URL,
+
+  // 🔐 REGLA CLAVE
+  synchronize: isDev,      // true solo en desarrollo
+  logging: isDev,          // logs solo en desarrollo
+
+  entities: [Categoria],
 });

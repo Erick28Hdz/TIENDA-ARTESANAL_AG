@@ -1,6 +1,6 @@
-import PromotionsHeaderSection from "@/features/section/promotions/PromotionsHeaderSection";
-import PromotionsFiltersSection from "@/features/section/promotions/PromotionsFiltersSection";
-import PromotionsProductsSection from "@/features/section/promotions/PromotionsProductsSection";
+import PromotionsHeaderSection from "@/modules/store/promotions/sections/PromotionsHeaderSection";
+import PromotionsFiltersSection from "@/modules/store/promotions/sections/PromotionsFiltersSection";
+import PromotionsProductsSection from "@/modules/store/promotions/sections/PromotionsProductsSection";
 import PublicitySection from "@/features/layouts/marketing/PublicidadSection";
 
 const Promociones = () => {

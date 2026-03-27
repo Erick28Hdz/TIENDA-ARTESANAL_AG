@@ -1,11 +1,11 @@
 
-import TopProductsSection from "@/features/section/products/ProductsTopSection";
-import CategoriesNavSection from "@/features/section/categories/CategoriesNavSection";
+import TopProductsSection from "@/modules/store/Products/sections/ProductsTopSection";
+import CategoriesNavSection from "@/modules/store/Categories/sections/CategoriesNavSection";
 import PublicitySection from "../../../../features/layouts/marketing/PublicidadSection";
-import DescuentosPromocionesSection from "../../../../features/section/home/DescuentosPromocionesSection";
-import CategoriesShowcaseSection from "@/features/section/categories/CategoriesSection";
-import RelatedProductsSection from "@/features/section/products/RelatedProductsSection";
-import PersonalizedProductsSection from "@/features/section/products/PersonalizedProductsSection";
+import DescuentosPromocionesSection from "../../Home/sections/DescuentosPromocionesSection";
+import CategoriesShowcaseSection from "@/modules/store/Categories/sections/CategoriesSection";
+import RelatedProductsSection from "@/modules/store/Products/sections/RelatedProductsSection";
+import PersonalizedProductsSection from "@/modules/store/Products/sections/PersonalizedProductsSection";
 
 
 

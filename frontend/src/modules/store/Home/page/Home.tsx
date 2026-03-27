@@ -1,16 +1,16 @@
 
-import MarketingHeroMessage from "../../../../features/layouts/home/messages/MarketingHeroMessage";
-import HomeIndexSection from "../../../../features/section/home/HomeIndexSection";
-import ProductosTopSection from "../../../../features/section/products/ProductsTopSection";
-import MarketingImpactMessage from "../../../../features/layouts/home/messages/MarketingImpactMessage";
-import ProductosArtesanalesSection from "../../../../features/section/home/ProductosArtesanalesSection";
-import MarketingCTASection from "../../../../features/layouts/home/messages/MarketingCTASection";
-import ProductosLayoutSection from "../../../../features/section/home/ProductosOtroSection";
+import MarketingHeroMessage from "../../../../features/layouts/messages/MarketingHeroMessage";
+import HomeIndexSection from "../sections/HomeIndexSection";
+import ProductosTopSection from "../../Products/sections/ProductsTopSection";
+import MarketingImpactMessage from "../../../../features/layouts/messages/MarketingImpactMessage";
+import ProductosArtesanalesSection from "../sections/ProductosArtesanalesSection";
+import MarketingCTASection from "../../../../features/layouts/messages/MarketingCTASection";
+import ProductosLayoutSection from "../sections/ProductosOtroSection";
 import PublicitySection from "../../../../features/layouts/marketing/PublicidadSection";
-import DescuentosPromocionesSection from "../../../../features/section/home/DescuentosPromocionesSection";
-import MarketingWhyChooseUs from "../../../../features/layouts/home/messages/MarketingTextInfo";
-import ReviewSection from "../../../../features/section/home/ReviewsSection";
-import MarketingFooterMessage from "../../../../features/layouts/home/messages/MarketingFooter";
+import DescuentosPromocionesSection from "../sections/DescuentosPromocionesSection";
+import MarketingWhyChooseUs from "../../../../features/layouts/messages/MarketingTextInfo";
+import ReviewSection from "../sections/ReviewsSection";
+import MarketingFooterMessage from "../../../../features/layouts/messages/MarketingFooter";
 
 
 
